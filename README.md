@@ -16,7 +16,7 @@ AI-PaperMiner is a program that simplifies the process of finding academic paper
 ### Running the Search
 - **Execute Findpapers**: With your parameters set, run the Findpapers tool. It will conduct a search across the specified databases and compile the results into a JSON file containing detailed information about each paper.
 
-## 2.2 Exporting Data from JSON to Excel
+## 2. Exporting Data from JSON to Excel
 
 ### Parsing JSON Data
 - **Import JSON**: Load the JSON file into your preferred data analysis environment, such as Python with pandas. Extract essential details like titles, publication dates, abstracts, author lists, databases, publishers, journal names, keywords, DOIs, and citation counts.
@@ -24,7 +24,7 @@ AI-PaperMiner is a program that simplifies the process of finding academic paper
 ### Creating an Excel File
 - **Compile Data**: Organize the extracted information into a pandas DataFrame. Then, export this DataFrame as an Excel file, which will serve as the basis for further analysis.
 
-## 2.3 Cleaning Abstract Text
+## 3. Cleaning Abstract Text
 
 ### Preprocessing
 - **Clean Text**: Apply a predefined function to clean the abstract texts, removing HTML tags, handling missing values, discarding non-English text, and eliminating unnecessary characters and patterns.
@@ -32,12 +32,12 @@ AI-PaperMiner is a program that simplifies the process of finding academic paper
 ### Normalization
 - **Standardize Text**: Convert all text to lowercase to ensure uniformity across the dataset.
 
-## 2.4 Generating TF-IDF Feature Matrices
+## 4. Generating TF-IDF Feature Matrices
 
 ### TF-IDF Transformation
 - **Apply TfidfVectorizer**: Use TfidfVectorizer to convert the cleaned abstract texts into a TF-IDF feature matrix, highlighting the importance of words within the documents for analysis.
 
-## 2.5 Determining the Number of Clusters and Clustering
+## 5. Determining the Number of Clusters and Clustering
 
 ### Elbow Method
 - **Optimize Cluster Number**: Utilize the elbow method to find the optimal number of clusters for your dataset by plotting the sum of squared distances against the number of clusters.
