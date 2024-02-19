@@ -1,4 +1,7 @@
 
+- [Open with Colab](https://colab.research.google.com/github/Tamago55/AI-PaperMiner/blob/master/Automated_Collection_and_Review_of_Academic_Papers_Using_AI.ipynb)
+
+
 # Overview
 
 AI-PaperMiner is a program that simplifies the process of finding academic papers. All you need to do is provide a list of model case papers that represent what you are looking for and specify your search keywords. AI-PaperMiner then automatically retrieves paper information from various databases. Following this, the AI automatically groups the papers, identifying those most relevant to your needs.
