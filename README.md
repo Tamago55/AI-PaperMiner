@@ -1,6 +1,8 @@
 
 - [Open with Colab](https://colab.research.google.com/github/Tamago55/AI-PaperMiner/blob/master/Automated_Collection_and_Review_of_Academic_Papers_Using_AI.ipynb)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tamago55/AI-PaperMiner/blob/master/Automated_Collection_and_Review_of_Academic_Papers_Using_AI.ipynb)
+
 
 # Overview
 
